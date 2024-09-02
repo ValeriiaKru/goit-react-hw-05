@@ -1,0 +1,16 @@
+.movieCard {
+display: flex;
+    flex-direction: column;
+    height: 360px;
+    width: 220px;
+    cursor: pointer;
+    gap: 6px;
+}
+
+.title {
+     font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  height: 48px;
+  overflow: hidden;
+}

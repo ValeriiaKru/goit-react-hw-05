@@ -1,0 +1,19 @@
+.headerNav {
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 24px;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+
+.active {
+    color: rgb(242,
+        137,
+        237);
+}
+

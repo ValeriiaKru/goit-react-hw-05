@@ -1,0 +1,45 @@
+.castList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 0;
+    list-style: none;
+margin: 16px 0;
+}
+
+.castListItem {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.castImg {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.infoContainer {
+    padding: 8px;
+}
+
+.castName {
+font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 8px 0;
+}
+
+.castCharacter {
+    font-size: 14px;
+    color: #666;
+}
+
+.castListItem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
