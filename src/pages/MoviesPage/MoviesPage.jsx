@@ -37,7 +37,6 @@ const MoviesPage = () => {
             }
         }
         fetchMovieByQueryData();
-        setSearchParams(query);
 
     }, [query]);
 

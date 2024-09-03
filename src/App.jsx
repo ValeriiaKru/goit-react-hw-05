@@ -16,7 +16,7 @@ function App() {
     <>
       <Navigation />
       <Suspense fallback={<Loader />}>
-        <Routes path='/' element={<HomePage />}>
+        <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/movies" element={<MoviesPage />} />
           <Route path="/movies/:movieId" element={<MovieDetailsPage />}>
